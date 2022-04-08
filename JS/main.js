@@ -8,9 +8,9 @@ console.log(hamMenuPage);
 
 
 hamMenu.addEventListener('click', function(){
-  hamMenuPage.className = 'display:block;';
+  hamMenuPage.classList.add ('active');
 });
 hamMenuClose.addEventListener('click', function(){
-  hamMenuPage.style = 'display:none;';
+  hamMenuPage.classList.remove ('active');
 });
 
